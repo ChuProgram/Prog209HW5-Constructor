@@ -17,7 +17,7 @@ Second button ("Show Movies") result in all the movie titles with their rating d
 
 ---------------------------------------------------------------------------------------------------
 
-Constructor should have the following.
+Constructor should have the following:
 - Property to hold the movie title (set when constructor is called)
 - Property to hold the rating (set when constructor is called)
 - Method to validate if two fields are valid.
