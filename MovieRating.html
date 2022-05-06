@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HW 5: Constructor</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <h1>Movie Ratings</h1>
+            <h2>by. Jackson</h2>
+        </div>
+
+        <fieldset id="inputField">
+            <legend>Please rate your movies</legend>
+            <br>
+
+            <label for="movieTitle">Movie Title</label>
+            <input name="movieTitle" id="movieTitle" /> 
+            <br><br>
+
+            <label for="movieRating">Rating (1 - 5)</label>
+            <select name="movieRating" id="movieRating">
+                <option value="blank">Select Rating...</option>
+                <option value="5">5 (Best)</option>
+                <option value="4">4 (Good)</option>
+                <option value="3">3 (Okay)</option>
+                <option value="2">2 (Bad)</option>
+                <option value="1">1 (Worst)</option>
+            </select>
+            <br><br>
+
+            <input type="button" value="Add Movie" id="addMovie" />
+            <input type="button" value="Show Movies" id="showMovies" />
+        </fieldset>
+
+        <br><br><br><br>
+
+        <fieldset id="outputField">
+            <h4>Movies with rating</h4>
+
+            <div id="movieList"></div>
+
+        </fieldset>
+
+        <script type="text/javascript" src="library_movie.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

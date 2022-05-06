@@ -1,0 +1,64 @@
+* {
+    background-color: rgb(0, 0, 0);
+}
+
+#header {
+    font-size: 30px;
+    color: rgb(193, 135, 11);
+    line-height:10px;
+}
+
+legend {
+    width:100%;
+    font-size:20px;
+    background-color:rgb(149, 219, 126);
+}
+
+fieldset {
+    border-color:rgb(173, 8, 8);
+    background-color:rgb(83, 14, 7);
+}
+
+label {
+    background: transparent;
+    font-size:20px;
+    color: rgb(236, 247, 179);
+}
+
+#movieTitle, #movieRating {
+    font-size:20px;
+    width: 50%;
+    margin-left:38%;
+    text-align: center;
+    background-color:rgb(193, 192, 141);
+}
+
+#movieRating {
+    margin-left:37%;
+    width:50.5%;
+}
+
+option {
+    background-color:rgb(193, 192, 141);
+}
+
+#addMovie, #showMovies {
+    margin:2%;
+    margin-left:0%;
+    padding:1%;
+    font-size:30px;
+    width:20%;
+    background-color:rgb(47, 118, 114);
+}
+
+h4 {
+    font-size:30px;
+    color:white;
+    background:transparent;
+}
+
+#movieList, ul, li {
+    font-size:20px;
+    background:transparent;
+    color:rgb(140, 217, 98);
+}
